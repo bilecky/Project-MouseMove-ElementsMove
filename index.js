@@ -11,7 +11,8 @@ const mouseMover = () => {
       const ratioY = -element.getAttribute("ratioY");
 
       const moveX = clientX - centerX;
-      const moveY = clientY - centerY;
+      const moveY = clientY - centerY
+      ;
 
       element.style.transform = `translate(${moveX * ratioX}px, ${
         moveY * ratioY
