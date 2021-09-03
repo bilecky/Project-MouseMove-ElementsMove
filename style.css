@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+}
+
+.ballon-animation {
+  position: relative;
+  background-color: cornflowerblue;
+}
+
+.flyier {
+  position: absolute;
+  width: 25%;
+}
+
+.b-flyier {
+  position: absolute;
+  width: 15%;
+  left: 70%;
+  top: 80px;
+}
+
+.flyier:nth-child(1) {
+  top: 200px;
+  left: 250px;
+}
+.flyier:nth-child(2) {
+  left: 55%;
+  top: 175px;
+}
+.flyier:nth-child(3) {
+  left: 30%;
+  top: 122px;
+}
+.flyier:nth-child(4) {
+  left: 55%;
+  top: 85px;
+  z-index: 1;
+}
+.flyier:nth-child(5) {
+  top: 125px;
+  z-index: 1;
+}
